@@ -139,14 +139,40 @@ html, body {
     margin-bottom: 10px;
     border: 2px solid #333333; 
   }
+
+ 
   
-  @media (max-width: 500px) {
+  @media only screen and (max-width: 500px) {
     main h1 {
       font-size: 50px;
-      padding: 0 40px;
+      padding: 40 40px;
     }
   
     .supporting .col {
       width: 100%;
     }
+
+    nav {
+      margin: 0;
+      padding: 20px 0;
+    }
+    
+    nav li {
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    ul {
+      padding-inline-start: 0px;
+      width: 100%;
+    }
   }
+  
