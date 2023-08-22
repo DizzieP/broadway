@@ -111,6 +111,14 @@ html, body {
   .supporting img {
     height: 32px;
   }
+
+  img {
+    padding-top: 9%;
+  }
+
+  .supporting {
+    padding-bottom: 9%;
+  }
   
   .supporting h2 {
     font-weight: 600;
@@ -142,12 +150,12 @@ html, body {
 
  
   
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 768px) {
     main h1 {
       font-size: 50px;
       padding-top: 200px;
     }
-  
+
     .supporting .col {
       width: 100%;
     }
@@ -173,6 +181,14 @@ html, body {
     ul {
       padding-inline-start: 0px;
       width: 100%;
+    }
+
+    img {
+      padding-top: 5%;
+    }
+
+    .supporting {
+      padding-bottom: 23%;
     }
   }
   
